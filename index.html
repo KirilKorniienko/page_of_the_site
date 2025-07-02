@@ -11,99 +11,193 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <!-- Info header -->
-    <header>
-      <!-- Logo -->
-      <div>
-        <a href="index.html">WEB<span>STUDIO</span></a>
-      </div>
-      <!-- Navigation -->
-      <div>
-        <nav>
-          <ul>
-            <li><a href="#">Studio</a></li>
-            <li><a href="#">Portfolio</a></li>
-            <li><a href="#">Contacts</a></li>
+    <div class="container">
+      <!-- Info header -->
+
+      <header class="header">
+        <!-- Logo -->
+
+        <div class="logo">
+          <a class="logo-link" href="index.html"
+            >WEB<span class="logo-span">STUDIO</span></a
+          >
+        </div>
+        <!-- Navigation -->
+
+        <nav class="navigation">
+          <ul class="navigation-list">
+            <li class="navigation-list-item">
+              <a class="navigation-list-item-link" href="#">Studio</a>
+            </li>
+            <li class="navigation-list-item">
+              <a class="navigation-list-item-link" href="#">Portfolio</a>
+            </li>
+            <li class="navigation-list-item">
+              <a class="navigation-list-item-link" href="#">Contacts</a>
+            </li>
           </ul>
         </nav>
-      </div>
-      <!-- Contacts -->
-      <div>
-        <a href="tel:+11(000)1111111">+11 (000) 111-11-11</a>
-        <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-      </div>
-    </header>
-    <!-- Main content -->
-    <main>
-      <!-- Motto -->
-      <section>
-        <h1>Effective Solutions for Your Business</h1>
-        <!--  -->
-        <button type="button">Order Service</button>
-      </section>
-      <!-- Feature team -->
-      <section>
-        <ul>
-          <li>
-            <h3>Strategy</h3>
-            <p>
-              Our goal is to identify the business problem to walk away with the
-              perfect and creative solution.
-            </p>
-          </li>
-          <li>
-            <h3>Punctuality</h3>
-            <p>
-              Bring the key message to the brand's audience for the best price
-              within the shortest possible time.
-            </p>
-          </li>
-          <li>
-            <h3>Diligence</h3>
-            <p>
-              Research and confirm brands with the strongest digital growth
-              opportunities and minimize risk.
-            </p>
-          </li>
-          <li>
-            <h3>Technologies</h3>
-            <p>
-              Design practice focused on digital experiences. We bring forth a
-              deep passion for problem-solving.
-            </p>
-          </li>
-        </ul>
-      </section>
-      <!-- Our Team -->
-      <section>
-        <h2>Our Team</h2>
-        <!-- Photos team -->
-        <div>
-          <ul>
-            <li><img src="images/img-3.jpg" alt="Фото 1" width="100" /></li>
-            <li><img src="images/img-2.jpg" alt="Фото 2" width="100" /></li>
-            <li><img src="images/img-1.jpg" alt="Фото 3" width="100" /></li>
-            <li><img src="images/img.jpg" alt="Фото 4" width="100" /></li>
-          </ul>
+
+        <!-- Contacts -->
+
+        <div class="contacts">
+          <a class="contacts-link" href="tel:+11(000)1111111"
+            >+11 (000) 111-11-11</a
+          >
+          <a class="contacts-link" href="mailto:info@devstudio.com"
+            >info@devstudio.com</a
+          >
         </div>
-      </section>
-    </main>
-    <!-- Footer  -->
-    <footer>
-      <!-- Logo -->
-      <div>
-        <a href="index.html">WEB<span>STUDIO</span></a>
-      </div>
-      <!-- add -->
-      <div>
-        <p>
-          Increase the flow of customers and sales for your business with
-          digital marketing & growth solutions.
-        </p>
-      </div>
-    </footer>
+      </header>
+      <!-- Main content -->
+
+      <main>
+        <!-- Slogan company -->
+
+        <section class="slogan">
+          <h1 class="slogan-header">Effective Solutions for Your Business</h1>
+          <!--  -->
+
+          <button class="slogan-button" type="button">
+            <span>Order Service</span>
+          </button>
+        </section>
+        <!-- goals -->
+
+        <section>
+          <ul>
+            <li>
+              <h3>Strategy</h3>
+              <p>
+                Our goal is to identify the business problem to walk away with
+                the perfect and creative solution.
+              </p>
+            </li>
+            <li>
+              <h3>Punctuality</h3>
+              <p>
+                Bring the key message to the brand's audience for the best price
+                within the shortest possible time.
+              </p>
+            </li>
+            <li>
+              <h3>Diligence</h3>
+              <p>
+                Research and confirm brands with the strongest digital growth
+                opportunities and minimize risk.
+              </p>
+            </li>
+            <li>
+              <h3>Technologies</h3>
+              <p>
+                Design practice focused on digital experiences. We bring forth a
+                deep passion for problem-solving.
+              </p>
+            </li>
+          </ul>
+        </section>
+        <!-- Our Team -->
+        <section>
+          <h2>Our Team</h2>
+          <!-- Photos team -->
+          <div>
+            <ul>
+              <li>
+                <img src="images/img-3.jpg" alt="Фото 1" />
+              </li>
+              <li>
+                <img src="images/img-2.jpg" alt="Фото 2" />
+              </li>
+              <li>
+                <img src="images/img-1.jpg" alt="Фото 3" />
+              </li>
+              <li>
+                <img src="images/img.jpg" alt="Фото 4" />
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- Our Portfolio -->
+        <section>
+          <h2>Our Portfolio</h2>
+          <!-- list portfolio -->
+          <section>
+            <ul>
+              <li>
+                <a href="">
+                  <img
+                    src="./images/img-16.jpg"
+                    alt="Макет банку для мобільного додатку"
+                  />
+                </a>
+                <h3>Banking App</h3>
+                <p>App</p>
+              </li>
+              <li>
+                <a href=""
+                  ><img src="./images/img-15.jpg" alt="Сканер штрих кода"
+                /></a>
+                <h3>Cashless Payment</h3>
+                <p>Marketing</p>
+              </li>
+              <li>
+                <a href=""
+                  ><img
+                    src="./images/img-14.jpg"
+                    alt="Логотипу компанії для сайту та мобільного додатку"
+                /></a>
+                <h3>Meditation App</h3>
+                <p>App</p>
+              </li>
+              <li>
+                <a href=""
+                  ><img src="./images/img-13.jpg" alt="Чоловік керує авто"
+                /></a>
+                <h3>Taxi Service</h3>
+                <p>App</p>
+              </li>
+              <li>
+                <a href=""
+                  ><img src="./images/img-12.jpg" alt="Фото обої для телевона"
+                /></a>
+                <h3>Screen Illustrations</h3>
+                <p>Design</p>
+              </li>
+              <li>
+                <a href=""
+                  ><img src="./images/img11.jpg" alt="Жінка слухає музику"
+                /></a>
+                <h3>Online Courses</h3>
+                <p>Marketing</p>
+              </li>
+            </ul>
+          </section>
+        </section>
+      </main>
+      <!-- Footer  -->
+      <footer>
+        <!-- Logo -->
+        <div>
+          <a href="index.html">WEB<span>STUDIO</span></a>
+        </div>
+        <!-- add -->
+        <div>
+          <p>
+            Increase the flow of customers and sales for your business with
+            digital marketing & growth solutions.
+          </p>
+        </div>
+      </footer>
+    </div>
   </body>
 </html>

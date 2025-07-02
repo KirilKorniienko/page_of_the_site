@@ -1,0 +1,123 @@
+/* Main settings */
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #ffffff;
+  color: #434455;
+}
+
+.container {
+  width: 1440px;
+  margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  padding-left: 0;
+  padding-right: 0;
+  list-style-type: none;
+}
+
+/* Header */
+
+.header {
+  padding: 24px 156px;
+}
+
+/* Logo WebStudio */
+
+.logo {
+  display: inline-block;
+}
+
+.logo-link {
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  color: #4d5ae5;
+}
+
+.logo-span {
+  color: #2e2f42;
+}
+
+/* Navigation */
+
+.navigation {
+  display: inline-block;
+}
+
+.navigation-list {
+  margin-left: 76px;
+}
+
+.navigation-list-item {
+  display: inline-block;
+}
+
+/* Все крім останьой силки буде мати відступ */
+.navigation-list-item:not(:last-child) {
+  margin-right: 40px;
+}
+
+.navigation-list-item-link {
+  color: #2e2f42;
+}
+
+/* Contacts */
+
+.contacts {
+  display: inline-block;
+  margin-left: 332px;
+}
+
+.contacts-link {
+  color: #2e2f42;
+}
+
+.contacts-link:not(:last-child) {
+  margin-right: 40px;
+}
+
+/* Main Content */
+
+/* Slogan */
+
+.slogan {
+  height: 600px;
+  background-color: #2e2f42;
+  padding-left: 472px;
+  padding-top: 191px;
+  padding-right: 440px;
+  padding-bottom: 289px;
+}
+
+.slogan-header {
+  color: #ffffff;
+  font-size: 56px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  line-height: 1.2;
+}
+
+.slogan-button {
+  width: 169px;
+  height: 56px;
+  background-color: #4d5ae5;
+  color: #ffffff;
+  margin-top: 48px;
+  margin-left: 164px;
+  border-radius: 8px;
+}
