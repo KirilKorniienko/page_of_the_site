@@ -121,3 +121,173 @@ ul {
   margin-left: 164px;
   border-radius: 8px;
 }
+
+/* Goals Company */
+
+.goals {
+  padding-left: 136px;
+  padding-top: 123px;
+  padding-right: 136px;
+  padding-bottom: 120px;
+}
+
+.goals-list {
+}
+
+.goals-list-item {
+  display: inline-block;
+}
+
+/* Все крім останьой силки буде мати відступ */
+.goals-list-item:not(:last-child) {
+  margin-right: 24px;
+}
+
+.goals-headers {
+  font-size: 20px;
+  letter-spacing: 2%;
+}
+
+.goals-text {
+  max-width: 30ch; /* приблизно ширина 20 символів */
+  word-wrap: break-word; /* переносити слово, якщо не поміщається */
+  white-space: normal; /* дозволяє переносити текст */
+  font-size: 16px;
+  letter-spacing: 4%;
+  line-height: 1.5;
+}
+
+/* Team Company */
+
+.team {
+  background-color: #f4f4fd;
+  height: 732px;
+  padding-top: 120px;
+}
+
+.team-header {
+  font-weight: bold;
+  font-size: 36px;
+  letter-spacing: 2%;
+  text-align: center;
+  color: #2e2f42;
+}
+
+.team-block {
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.08);
+  display: inline-block;
+  width: 264px;
+  height: 380px;
+  margin-top: 72px;
+  background-color: #ffffff;
+}
+
+.team-block:not(:last-child) {
+  margin-right: 24px;
+}
+
+.team-block:nth-child(2) {
+  margin-left: 156px;
+}
+
+.team-block-img {
+  height: 260px;
+}
+
+.team-name {
+  margin-top: 32px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  letter-spacing: 2%;
+  color: #2e2f42;
+}
+
+.team-position {
+  text-align: center;
+  font-size: 16px;
+  letter-spacing: 4%;
+  color: #434455;
+}
+
+/* Our Portfolio */
+
+.portfolio {
+}
+
+.portfolio-header {
+  margin-top: 100px;
+  margin-left: 611px;
+  font-weight: bold;
+  font-size: 36px;
+  letter-spacing: 2%;
+  color: #2e2f42;
+}
+
+.portfolio-container {
+  margin-top: 72px;
+  margin-left: 156px;
+  margin-right: 156px;
+}
+
+.portfolio-block {
+  width: 360px;
+  height: 420px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  /* margin-right: 10px; */
+  display: inline-block;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.08);
+  background-color: #ffffff; /* чтобы тень была видна */
+}
+
+.portfolio-block:not(:last-child):not(:nth-child(3)) {
+  margin-right: 20px;
+}
+
+.img-portfolio {
+  width: 360px;
+  height: 300px;
+}
+
+.header-name {
+  margin-top: 32px;
+  font-weight: bold;
+  font-size: 20px;
+  letter-spacing: 2%;
+  color: #2e2f42;
+}
+
+.head-text {
+  font-size: 16px;
+  letter-spacing: 4%;
+  color: #434455;
+}
+
+/* Footer */
+
+.footer {
+  padding-left: 156px;
+  padding-top: 100px;
+  height: 312px;
+  background-color: #2e2f42;
+  color: #ffffff;
+}
+
+/* Logo */
+.logo-span-two {
+  color: #ffffff;
+}
+
+/* Logo text */
+
+.logo-text {
+  margin-top: 16px;
+  margin-bottom: 0;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 2%;
+  max-width: 30ch; /* приблизно ширина 20 символів */
+  word-wrap: break-word; /* переносити слово, якщо не поміщається */
+  white-space: normal; /* дозволяє переносити текст */
+}
