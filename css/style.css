@@ -30,6 +30,16 @@ ul {
   list-style-type: none;
 }
 
+/* *,
+*::before,
+*::after {
+  box-sizing: border-box;
+} 
+ У нормалізаторі modern-normalize за умовчанням
+задано глобальний border-box.
+Отже, якщо його підключено до проєкту,
+то у своїх стилях box-sizing можна не вказувати. */
+
 /* Header */
 
 .header {
@@ -110,6 +120,8 @@ ul {
   font-weight: bold;
   letter-spacing: 2px;
   line-height: 1.2;
+  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black,
+    1px 1px 0 black;
 }
 
 .slogan-button {
@@ -120,6 +132,7 @@ ul {
   margin-top: 48px;
   margin-left: 164px;
   border-radius: 8px;
+  box-shadow: 3px 5px 6px rgba(0, 0, 0, 0.395);
 }
 
 /* Goals Company */
@@ -234,11 +247,15 @@ ul {
   width: 360px;
   height: 420px;
   margin-top: 10px;
-  margin-bottom: 10px;
+  margin-bottom: 48px;
   /* margin-right: 10px; */
   display: inline-block;
   box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.08);
   background-color: #ffffff; /* чтобы тень была видна */
+}
+
+.portfolio-block:not(:nth-child(1)):not(:nth-child(2)):not(:nth-child(3)) {
+  margin-bottom: 120px;
 }
 
 .portfolio-block:not(:last-child):not(:nth-child(3)) {
